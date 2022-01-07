@@ -1,0 +1,36 @@
+﻿@page
+@model AboutModel
+@{
+    ViewData["Title"] = "About Willard";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p> Willard is developer who has spent his life obsessing over technology and art.
+     If given the chance he can provide a level of detail and imagination to any project set in front of him.
+     Heres just a few of his skills:
+</p>
+<container>
+    <h1 style="background-color: white;">
+        3D Modeling
+    </h1>
+    <img class="d-block w-100" src="images\Harry_Hi_res.png" alt="Harry" style="margin: auto; max-width: 1150px; height: auto; width: 100%;"/>
+    <p style="background-color: rgba(128, 128, 128, .5); text-align: center;">
+        /*Design: Blender; Texturing: Krita*/
+    </p>
+    <p>
+        Willard has been using open source 3D Modeling software for over 10 years gaining experience in high and low poly models
+        as well as texturing externally in Photoshop and Krita and animating said models.
+    </p>
+    
+    <h1 style="background-color: white;">
+        Web Design
+    </h1>
+    <p>
+        Classically trained from a young age in HTML and CSS, Willard has moved from early Flash animated websites to HTML5
+        and of course is currently learning to implement C# RazorPages into his portfolio.
+    </p>
+    <h1>
+        <a style="color: #18ac51;" asp-area="" asp-page="/Contact">Contact me here</a>
+        If you'd like a copy of this sites entire source code!
+    </h1>
+</container>

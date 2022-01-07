@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WillardSoftware</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WillardSoftware.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="container"></div>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-top mb-3 fixed-top" style="margin-bottom: none;">
+                <ul class="navbar-nav flex-grow-1">                    
+                    <a class="navbar-brand" asp-area="" asp-page="/Index">WillardSoftware</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/About">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Commission">Commission</a>
+                    </li>                    
+
+                </ul>
+                <ul class="navbar-nav flex-grow-1" style="justify-content: right;">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="fixed-bottom" style="background-color: rgba(128, 128, 128, .5);">
+            willardsoftware.com <a href="/Contact">contact</a>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

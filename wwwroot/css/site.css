@@ -1,0 +1,35 @@
+html 
+{
+  font-size: 14px;
+}
+
+@media (min-width: 768px) 
+{
+  html 
+  {
+    font-size: 16px;
+  }
+}
+
+html 
+{
+  position: relative;
+  min-height: 100%;
+}
+
+body 
+{
+  margin-top: 60px;
+  background-color: #01A7C2;
+}
+
+.center 
+{
+   position: absolute;
+   color: white;
+   padding: 1%;
+   background-color:rgba(129, 129, 129, .75);
+   top: 5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
