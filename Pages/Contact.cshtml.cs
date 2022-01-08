@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 using System.Net.Mail;
+using MailKit.Net.Smtp;
+using MailKit;
+using MimeKit;
 
 namespace WillardSoftware.Pages;
 
@@ -53,10 +56,11 @@ public class ContactModel : PageModel
             message.Subject = "New E-Mail from my website";
             message.Body = mailbody;        
             
-            using (var smtpClient = new SmtpClient("mail.willardsoftware.com"))
-            {
-                smtpClient.Send(message);
-            }
+            SmtpClient client = new SmtpClient("smtp-mail.outlook.com");
+            client.EnableSsl = true;
+            client.UseDefaultCredentials = true;
+            client.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
+            client.Send(message);
         }
 
     }
