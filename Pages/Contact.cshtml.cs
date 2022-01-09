@@ -28,6 +28,7 @@ namespace WillardSoftware.Pages
 
         [BindProperty]
         public ContactForm Contact { get; set; }
+        
 
         
 

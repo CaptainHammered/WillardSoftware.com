@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1oLp1Sx2CMtietxHEVPos9eTZ05HNMgNl5sAG+EYlaGny7X6YNkA3sw9R/dC+EPINBBOOvGFg1MshuSaoXp26w==",
+  "dgSpecHash": "uurAOQ4kpNkN1mq5R2HEoaCvPi/Dtdn0rjgDvOmKRmgcVSYTZ61H98BpJ/oqqgd9AW7wUF7qcqjS7ly+bbkL3A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
+  "projectFilePath": "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thecr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\thecr\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",
@@ -74,6 +74,7 @@
     "C:\\Users\\thecr\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\thecr\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\thecr\\.nuget\\packages\\mimekit\\3.0.0\\mimekit.3.0.0.nupkg.sha512",
+    "C:\\Users\\thecr\\.nuget\\packages\\netcore.mailkit\\2.0.3\\netcore.mailkit.2.0.3.nupkg.sha512",
     "C:\\Users\\thecr\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\thecr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\thecr\\.nuget\\packages\\nuget.common\\5.11.0\\nuget.common.5.11.0.nupkg.sha512",

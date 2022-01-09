@@ -574,3 +574,7 @@ C:\Users\thecr\WillardSoftware\willardsoftware\obj\Debug\net6.0\WillardSoftware.
 C:\Users\thecr\WillardSoftware\willardsoftware\obj\Debug\net6.0\ref\WillardSoftware.dll
 C:\Users\thecr\WillardSoftware\willardsoftware\obj\Debug\net6.0\WillardSoftware.pdb
 C:\Users\thecr\WillardSoftware\willardsoftware\obj\Debug\net6.0\WillardSoftware.genruntimeconfig.cache
+C:\Users\thecr\WillardSoftware\bin\Debug\net6.0\MailKit.dll
+C:\Users\thecr\WillardSoftware\bin\Debug\net6.0\MimeKit.dll
+C:\Users\thecr\WillardSoftware\bin\Debug\net6.0\NETCore.MailKit.dll
+C:\Users\thecr\WillardSoftware\bin\Debug\net6.0\BouncyCastle.Crypto.dll

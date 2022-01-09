@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FkQrPAiL9Yh+uctkLFNAAu5d7zFqHfB2Au2hOFToNvk=",
+  "Hash": "lAXEHoWm2AlVomVVcjztP1JEMEZUasGoY1WT3IuxG9Q=",
   "Source": "WillardSoftware",
   "BasePath": "_content/WillardSoftware",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\DOSPrompt.png"
+    },
+    {
+      "Identity": "C:\\Users\\thecr\\WillardSoftware\\wwwroot\\images\\Harry_Render.png",
+      "SourceId": "WillardSoftware",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thecr\\WillardSoftware\\wwwroot\\",
+      "BasePath": "_content/WillardSoftware",
+      "RelativePath": "images/Harry_Render.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Harry_Render.png"
     },
     {
       "Identity": "C:\\Users\\thecr\\WillardSoftware\\wwwroot\\js\\site.js",

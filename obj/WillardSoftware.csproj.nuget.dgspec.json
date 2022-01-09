@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj": {}
+    "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj": {}
   },
   "projects": {
-    "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj": {
+    "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
+        "projectUniqueName": "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
         "projectName": "WillardSoftware",
-        "projectPath": "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
+        "projectPath": "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
         "packagesPath": "C:\\Users\\thecr\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\thecr\\WillardSoftware\\obj\\",
+        "outputPath": "C:\\Users\\thecr\\WillardSoftware\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thecr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
           "imports": [

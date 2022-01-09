@@ -1471,6 +1471,19 @@
           "lib/net5.0/MimeKit.dll": {}
         }
       },
+      "NETCore.MailKit/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MailKit": "2.6.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/NETCore.MailKit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/NETCore.MailKit.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -5608,6 +5621,18 @@
         "lib/netstandard2.1/MimeKit.xml",
         "mimekit.3.0.0.nupkg.sha512",
         "mimekit.nuspec"
+      ]
+    },
+    "NETCore.MailKit/2.0.3": {
+      "sha512": "5V4N3S9soQLBemj2+u4TvIbSfJP1Hs/iV7TCJuBc913lD9OoZ+7Lne4eA90F292OLZ2iBQJzXttAvfYgIYWnFg==",
+      "type": "package",
+      "path": "netcore.mailkit/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/NETCore.MailKit.dll",
+        "netcore.mailkit.2.0.3.nupkg.sha512",
+        "netcore.mailkit.nuspec"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -10004,7 +10029,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SQLite >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.0",
+      "NETCore.MailKit >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -10013,11 +10039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
+      "projectUniqueName": "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
       "projectName": "WillardSoftware",
-      "projectPath": "c:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
+      "projectPath": "C:\\Users\\thecr\\WillardSoftware\\WillardSoftware.csproj",
       "packagesPath": "C:\\Users\\thecr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\thecr\\WillardSoftware\\obj\\",
+      "outputPath": "C:\\Users\\thecr\\WillardSoftware\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thecr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10067,6 +10093,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "NETCore.MailKit": {
+            "target": "Package",
+            "version": "[2.0.3, )"
           }
         },
         "imports": [
