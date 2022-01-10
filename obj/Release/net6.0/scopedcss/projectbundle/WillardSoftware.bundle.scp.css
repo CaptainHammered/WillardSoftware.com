@@ -1,0 +1,50 @@
+/* _content/WillardSoftware/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+a.navbar-brand[b-kudjshlbli] {
+  white-space: normal;
+  text-align: top;
+  word-break: break-all;
+  background-color: #ADA8B6;
+}
+
+a.link[b-kudjshlbli]
+{
+  color: #18ac51
+}
+a.hover[b-kudjshlbli] {
+  color:thistle;
+}
+
+.btn-primary[b-kudjshlbli] {
+  color: #18ac51;
+  background-color: #18ac51;
+  border-color: #18ac51;
+}
+
+.nav-pills .nav-link.active[b-kudjshlbli], .nav-pills .show > .nav-link[b-kudjshlbli] {
+  color: #18ac51;
+  background-color: #18ac51;
+  border-color: #18ac51;
+
+}
+
+.border-top[b-kudjshlbli] {
+  border-top: none;
+}
+.border-bottom[b-kudjshlbli] {
+  border-bottom: none;
+}
+
+.box-shadow[b-kudjshlbli] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-kudjshlbli] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+
